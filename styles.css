@@ -1,11 +1,7 @@
 body {
     color: #222222;
     font-size: 1em;
-<<<<<<< HEAD
     font-family: "Times New Roman", "Times", serif;
-=======
-    font-family: "Times New Roman", Times, sans-serif;
->>>>>>> 67209a1115a1998a6a11de540709defc3eb5b6d1
 }
 
 .content-footer,
@@ -23,24 +19,16 @@ body {
 
 .masthead-intro {
     margin-bottom: 0.1em;
-<<<<<<< HEAD
     font-family:"Times New Roman", Times, serif;
-=======
-    /* Typography Declarations */
     font-family: "Times New Roman", Times, serif;
->>>>>>> 67209a1115a1998a6a11de540709defc3eb5b6d1
     font-size: 2em;
 }
 
 .masthead-heading {
     color: #F1C863;
     margin-top: -0.2em;
-<<<<<<< HEAD
     font-family: "Times New Roman", serif;
-=======
-    /* Typography Declarations */
     font-family: "Times New Roman", Times, sans-serif;
->>>>>>> 67209a1115a1998a6a11de540709defc3eb5b6d1
     font-weight: bold;
     font-size: 6em;
     letter-spacing: -0.02em;
@@ -57,11 +45,7 @@ body {
 }
 
 .introduction > p,
-<<<<<<< HEAD
-.location> p,
-=======
 .location > p,
->>>>>>> 67209a1115a1998a6a11de540709defc3eb5b6d1
 .biography,
 .content-footer > p {
     font-weight: 300;
