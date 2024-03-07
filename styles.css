@@ -11,10 +11,18 @@ body {
 }
 
 .masthead {
-  padding: 10em 0;
+  padding: 5em 0;
   background-image: url("images/background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.masthead-text {
+  display: flex;
+  flex-direction: column;
 }
 
 .masthead-intro {
@@ -32,16 +40,19 @@ body {
     font-size: 6em;
     letter-spacing: -0.02em;
     text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
 }
 
 .introduction,
 .location,
 .biography {
-    max-width: 38em;
+    max-width: 40em;
     margin-left: auto;
     margin-right: auto;
     margin-top: 2em;
 }
+
 
 .introduction > p,
 .location > p,
@@ -58,6 +69,14 @@ body {
     margin: 2em 0 1em 0;
 }
 
+.masthead-image {
+  border-radius: 100%;
+  object-fit: cover;
+  width: 180px;
+  height: 180px;
+  margin-right: 20px;
+}
+
 section > h1 {
     margin-top: 2em;
 }
@@ -68,22 +87,6 @@ h2 {
     font-weight: bold;
 }
 
-.content-footer {
-  margin: 50px 0;
-  padding: 20px 0;
-  text-align: center;
-  background-color: #73A8C2;
-  text-decoration: none;
-}
-
-.social > li {
-  display: inline-block;
-  margin: 0 5px;
-}
-
-.content-footer > p {
-  color: #F7EDE1;
-}
 
 a {
     font-weight: bold;
